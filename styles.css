@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap');
+
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+:root {
+  /* Primary Color */
+  --primary-color: #9762b6;
+
+  --background-color : #230331 ;
+
+  /* Background */
+  --white-color: #ffffff; 
+
+  /* Accent Gray */
+  --heading-text: #000;
+
+  /* Text and Secondary Elements */
+  --text-color: #333;
+
+  /* Divider Lines */
+}
+
+
+
+*{
+  padding: px;
+  margin: px;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  font-size: 1.8rem;
+   line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-header{
+  background-color: var(--background-color);
+}
+
+
+nav{
+  height: 9rem;
+}
+
+.navbar-brand{
+  font-size: 2.4rem;
+}
+
+
+.nav-link:link , .nav-link:visited {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+
+.nav-link:hover , .nav-link:active{
+  color: var(--primary-color);
+}
+
+
+.nav-link.cta {
+  background-color: var(--primary-color);
+  display: inline-block;
+  padding: 0.5rem 2rem !important;
+  border-radius: 4px;
+}
+
+.nav-link.cta:hover{
+ background-color:#512763;
+ color: #fff;
+}
+
+h1{
+  font-size: 5.2rem;
+  letter-spacing: -02px;
+  line-height: 1.1;
+ 
+}
+
+p{
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #bc7ce0;
+ 
+}
+.hero-section{
+  padding: 3.2rem 0;
+}
+
+.btn{
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.hero-img{
+  width: 90%;
+}
+
+h2{
+  font-size: 4.5rem;
+  line-height: 1.3;
+}
+.card-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card-text{
+  font-size: 1.6rem;
+  color: #777;
+
+}
+.card{
+  margin: 8px;
+  
+}
+
+.how-title{
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+.how-text{
+  font-size: 1.7rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.how-it-works{
+  padding: 2.4rem 0;
+}
+.icon{
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 1.2rem;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: #fff;
+  margin-bottom: 1.4rem;
+}
+
+.testimonial{
+  padding: 5rem 0;
+  background-color: var(--background-color);
+}
+
+.tes-text, .tes-name{
+   color: var(--primary-color);
+}
+.tes-card{
+  width: 50%;
+}
+
+h3{
+  font-size: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>FoodieXpress</title>
+  </head>
+  <header>
+    <!-- navigatin bar -->
+
+    <header class="bg-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-white fw-bold" href="#" data-bs-toggle="tooltip" data-bs-title="FoodieXpress" data-bs-placement="bottom"><span style="color: #8d398f; font-size: 3.3rem; font-style: italic;">F</span>oodie<span style="color: #8d398f; font-size: 3.3rem; font-style: italic;">X</span>press</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#how-it-works">How it works</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link cta" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+    
+      <section class="hero-section ">
+        <div class="container">
+          <div class="row g-5 ">
+           <div class="d-flex align-items-center justify-content-between">
+            <div class="col-12 col-lg-6 text-white">
+              <h1 class="fw-bold pb-2">Delivious Deliverd: Discover a world of Flavour at your Doorstep</h1>
+              <p class="pt-3">Discover a wide range of delecatable dishes from various cuisines. From appetizers
+                and main courses to desserts and beverages, we have something to satisfy every craving.
+              </p>
+              <button class="btn" >Order Now</button>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="d-flex justify-content-end pl-5">
+                <img src="assets/hero.png" class="hero-img" alt="Delivery hero">
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </section>
+
+    </header>
+      <main>
+        <section class="featured pt-3">
+          <div class="container">
+            <h2 class="text-dark text-center pt-5  fw-bold" id="features">Featured Food Items</h2>
+          </div>
+
+          <div class="contianer py-4">
+            <div class="row g-5 p-3">
+              <div class="col-12 col-lg-3">
+                <div class="card shadow-lg border-0 ml-10">
+                   <img src="assets/burger.jpg" alt="burger" class="card-img-top">
+                      <div class="card-body">
+                        <h3 class="card-title">Sizzling Steakhouse Burger</h3>
+                        <p class="card-text">
+                          Succulent beef patty topped with melted cheddar cheese, caramelized onions, crispy, bacon,
+                          and tangy barbecue sauce
+                        </p>
+                        <button class="btn">Order Now</button>
+                      </div>  
+                </div>
+
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="card shadow-lg border-0 ml-10">
+                   <img src="assets/pizza.jpg" alt="burger" class="card-img-top">
+                      <div class="card-body">
+                        <h3 class="card-title">Mouthwatering Margherita Pizza</h3>
+                        <p class="card-text">
+                         Thin crust pizza topped with ripe tomatoes, fresh mozzarella cheese, fragrant basil leaves, and 
+                         a drizzle of extra virgin olive oil
+                        </p>
+                        <button class="btn">Order Now</button>
+                      </div>  
+                </div>
+
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="card shadow-lg border-0 ml-10">
+                   <img src="assets/sushi.jpg" alt="burger" class="card-img-top">
+                      <div class="card-body">
+                        <h3 class="card-title">Svaory Sushi Platter</h3>
+                        <p class="card-text">
+                        Dive into an exquisite assorment os sushi rolls, including California rolls, spicy tuna 
+                        rolls, spicy tuna rolls and salmon avocado rolls.
+                        </p>
+                        <button class="btn">Order Now</button>
+                      </div>  
+                </div>
+
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="card shadow-lg border-0 ml-10">
+                   <img src="assets/lavacake.jpg" alt="burger" class="card-img-top">
+                      <div class="card-body">
+                        <h3 class="card-title">Decadent Chacolate Lava Cake</h3>
+                        <p class="card-text">
+                         Indulge in a warm and googey chacolate cake with molten chacolate center,
+                         served with a scoop of velvety vanila ice cream
+                        </p>
+                        <button class="btn">Order Now</button>
+                      </div>  
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="how-it-works">
+          <div class="container">
+            <h2 class="text-dark text-center pt-5 pb-3  fw-bold" id="how-it-works">How FoodieXpress Works</h2>
+          </div>
+
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-12 col-lg-6">
+              <div class=" p-3 d-flex flex-column justify-content-center shadow-lg how-card">
+                <span><ion-icon class="icon" name="search-outline"></ion-icon></span>
+                <h3 class="fw-bold text-dark how-title">Browse our extensive menu</h3>
+                <p class="how-text">Discover a wide range of delectable dishes from various cuisines.
+                  From appetizers and main courses to desserts and beverages, we have something to 
+                  satisfy every craving.
+                </p>
+              </div>
+            </div> 
+
+            <div class="col-12 col-lg-6">
+              <div class=" p-3 d-flex flex-column justify-content-center shadow-lg how-card">
+                <span><ion-icon name="bag-check-outline" class="icon"></ion-icon></span>
+                <h3 class="fw-bold text-dark how-title">Place Your Order</h3>
+                <p class="how-text">Discover a wide range of delectable dishes from various cuisines.
+                  From appetizers and main courses to desserts and beverages, we have something to
+                  satisfy every craving.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="  p-3 d-flex flex-column justify-content-center shadow-lg how-card">
+                <span><ion-icon name="location-outline" class="icon"></ion-icon></span>
+                <h3 class="fw-bold text-dark how-title">Track your delivery</h3>
+                <p class="how-text">Sit back and relax our dedicated delivery proffessionals swiftly
+                  brong your order to your location. Monitor the progress of your delivery in 
+                  real-time and know exactly when to expect your food.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class=" p-3 d-flex flex-column justify-content-center shadow-lg  how-card">
+                <span><ion-icon name="fast-food-outline" class="icon"></ion-icon></span>
+                <h3 class="fw-bold text-dark how-title">Enjoy Your Meal</h3>
+                <p class="how-text">Once your Order arrives, indulge in an flavorful dining
+                  experience from the comfort of your own home. Our commitment to quality 
+                  ensures that every bits is a deligt.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial">
+          <div class="container">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                           <div class="tes-card">
+                          <img src="assets/sarah.jpg" width="150px" class="rounded-circle pb-4" alt="sarah">
+                          <p class="tes-text pb-2">
+                            FoodieXpress has transformed the way I enjoyed meals. The 
+                            convenience of ordering my favourite dishes from local 
+                            restaurants and having them delivered  to my doorstep is simply 
+                            fantastic.
+                          </p>
+                          <h3 class="tes-name"> Sarah P</h3>
+
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+
+               
+
+                <div class="carousel-item">
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                           <div class="tes-card">
+                          <img src="assets/john.jpg" width="150px" class="rounded-circle pb-4" alt="sarah">
+                          <p class="tes-text pb-2">
+                            FoodieXpress has transformed the way I enjoyed meals. The 
+                            convenience of ordering my favourite dishes from local 
+                            restaurants and having them delivered  to my doorstep is simply 
+                            fantastic.
+                          </p>
+                          <h3 class="tes-name">  Jhon P</h3>
+
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+
+               
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </section>
+
+        <!-- <section class="testimonial">
+          <div class="container">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+
+               <div class="carousel-item active">
+                 <div class="container py-5">
+              <div class="row">
+                <div class="col-12">
+                  <div class=" d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="tes-card">
+                      <img src="assets/sarah.jpg" alt="" width="150px" class="rounded-circle pb-4">
+                    <p class="tes-text pb-2">
+                      FoodieXpress has transformed the way I enjoyed meals. The 
+                      convenience of ordering my favourite dishes from local 
+                      restaurants and having them delivered  to my doorstep is simply 
+                      fantastic.
+                    </p>
+                    <h3 class="tes-name"> Sarah P</h3>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+         </div>
+              <div class="carousel-item ">
+                <div class="container py-5">
+                <div class="row">
+                  <div class="col-12">
+                    <div class=" d-flex flex-column align-items-center justify-content-center text-center">
+                      <div class="tes-card">
+                        <img src="assets/sarah.jpg" alt="" width="150px" class="rounded-circle pb-4">
+                      <p class="tes-text pb-2">
+                        FoodieXpress has transformed the way I enjoyed meals. The 
+                        convenience of ordering my favourite dishes from local 
+                        restaurants and having them delivered  to my doorstep is simply 
+                        fantastic.
+                      </p>
+                      <h3 class="tes-name"> Sarah </h3>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                </div> 
+
+                <div class="carousel-item">
+                  <div class="container py-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class=" d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="tes-card">
+                          <img src="assets/sarah.jpg" alt="" width="150px" class="rounded-circle pb-4">
+                        <p class="tes-text pb-2">
+                          FoodieXpress has transformed the way I enjoyed meals. The 
+                          convenience of ordering my favourite dishes from local 
+                          restaurants and having them delivered  to my doorstep is simply 
+                          fantastic.
+                        </p>
+                        <h3 class="tes-name">Sarah j</h3>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div> 
+                  </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section> -->
+      </main>
+<footer>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-12 col-lg-3 ">
+        <h3 class="fw-bold pb-3">Visit Us</h3>
+        <p>13 Foodie lane, cityville, <br> Bangalore, Karnataka 560075</p>
+        <a href="mailto:infofoodieexpress.com" class="text-dark">info@foodiexpress.com</a>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <h3 class="fw-bold pb-3">Our Links</h3>
+        <div class="d-flex flex-column">
+        <a href="#home" class="text-dark">Home</a>
+        <a href="#how-it-work" class="text-dark">How it works</a>
+        <a href="#features" class="text-dark">Features</a>
+        <a href="#contacts" class="text-dark">contacts</a>
+      </div>
+    </div>
+
+    
+    
+
+  <div class="col-12 col-lg-3">
+    <h3 class="fw-bold pb-3">Our Menu</h3>
+    <div class="d-flex flex-column">
+    <a href="#home" class="text-dark">Steakhouse Burger</a>
+    <a href="#how-it-work" class="text-dark">Margherita Pizza</a>
+    <a href="#features" class="text-dark">Sushi Platter</a>
+    <a href="#contacts" class="text-dark">Chacolate Lava Cake</a>
+  </div>
+</div>
+
+<div class="col-12 col-lg-3">
+  <h3 class="fw-bold pb-3">Get in touch</h3>
+  <div class="d-flex">
+  <a href="#" class="text-dark px-2"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+  <a href="#" class="text-dark px-2"><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+  <a href="#" class="text-dark px-2"><ion-icon name="logo-youtube" class="icon"></ion-icon></a>
+  
+</div>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+<hr>
+
+
+
+   
+  </body>
+</html>
